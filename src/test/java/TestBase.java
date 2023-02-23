@@ -10,6 +10,8 @@ import pages.BurpSuitePage;
 
 import java.util.Map;
 
+import static com.codeborne.selenide.Selenide.open;
+
 public class TestBase {
 
 
@@ -25,7 +27,6 @@ BurpSuitePage burpSuitePage=new BurpSuitePage();
         Configuration.browserVersion = System.getProperty("browserVersion", "100.0");
         Configuration.remote = System.getProperty("url", "https://user1:1234@selenoid.autotests.cloud/wd/hub");
 
-
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("selenoid:options", Map.<String, Object>of(
                 "enableVNC", true,
@@ -40,9 +41,10 @@ BurpSuitePage burpSuitePage=new BurpSuitePage();
 
 
     }
+
     @BeforeEach
     void beforeEach() {
-
+        open("https://portswigger.net/");
     }
     @AfterEach
     void addAttachments() {
