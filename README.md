@@ -10,11 +10,19 @@
 - [Видео примера запуска теста в Selenoid](#-видео-примера-запуска-теста-в-selenoid)
 
 ## :computer: Использованный стек технологий
-
-
-
-
-
+<p align="center">
+<a href="https://www.jetbrains.com/idea/"><img src="/pictures/logo/Idea.svg" width="50" height="50"  alt="IDEA"/></a>
+<a href="https://www.java.com/"><img src="images/logo/Java.svg" width="50" height="50"  alt="Java"/></a>
+<a href="https://github.com/"><img src="images/logo/GitHub.svg" width="50" height="50"  alt="Github"/></a>
+<a href="https://junit.org/junit5/"><img src="images/logo/Junit5.svg" width="50" height="50"  alt="JUnit 5"/></a>
+<a href="https://gradle.org/"><img src="images/logo/Gradle.svg" width="50" height="50"  alt="Gradle"/></a>
+<a href="https://selenide.org/"><img src="images/logo/Selenide.svg" width="50" height="50"  alt="Selenide"/></a>
+<a href="https://aerokube.com/selenoid/"><img src="images/logo/Selenoid.svg" width="50" height="50"  alt="Selenoid"/></a>
+<a href="https://github.com/allure-framework/allure2"><img src="images/logo/Allure.svg" width="50" height="50"  alt="Allure"/></a>
+<a href="https://https://qameta.io/"><img src="images/logo/Allure_TO.svg" width="50" height="50"  alt="Allure_TO"/></a>
+<a href="https://www.jenkins.io/"><img src="images/logo/Jenkins.svg" width="50" height="50"  alt="Jenkins"/></a>
+<a href="https://https://telegram.org/"><img src="images/logo/Telegram.svg" width="50" height="50"  alt="Telegram"/></a>
+</p>
 
 ## Реализованные проверки:
 
@@ -53,29 +61,25 @@ __*Ссылка на*__ [отчёт](https://jenkins.autotests.cloud/job/C17-eaa
 
 
 __Общаая информация:__
-![allure_overview](/pictures/allure.png)
+![allure_overview](pictures/allure.png)
 
 
 __Тестовые сценарии:__
-![allure_tc](/pictures/allure_2.png)
+![allure_tc](pictures/allure_2.png)
 
 
 ## Allure TestOps
-
+__Общаая информация:__
+![allure_test_ops_overview](pictures/allureTestOps.png)
 
 __Тестовые сценарии:__
+![allure_testOps_tc](pictures/allureTestOps_2.png)
 
-
-__Примеры запусков:__
-
-
-## Jira
-__Пример интеграции:__
 
 
 
 ### Уведомления в Telegram с использованием бота:
-![bot_result](/pictures/telegram.png)
+![bot_result](pictures/telegram.png)
 
 ### Видео примера запуска теста в Selenoid:
-https://github.com/Elena-Chaplygina/PortSwiggerTest/blob/main/pictures/93ecee38f0bc3ae75051dcf127febdd6%20(online-video-cutter.com).mp4
+(/pictures/93ecee38f0bc3ae75051dcf127febdd6.gif)
