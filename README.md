@@ -9,7 +9,7 @@
 - [Уведомления в Telegram с использованием бота](#-уведомления-в-telegram-с-использованием-бота)
 - [Видео примера запуска теста в Selenoid](#-видео-примера-запуска-теста-в-selenoid)
 
-## :computer: Использованный стек технологий
+## :computer:  Использованный стек технологий
 <p align="center">
 <a href="https://www.jetbrains.com/idea/"><img src="/pictures/logo/Idea.svg" width="50" height="50"  alt="IDEA"/></a>
 <a href="https://www.java.com/"><img src="/pictures/logo/Java.svg" width="50" height="50"  alt="Java"/></a>
@@ -27,7 +27,7 @@
 ## Реализованные проверки:
 
 - *Проверка выпадающего меню элементов хедера главной страницы*
-- *Проверка изменения при наведении логотипов клиентов*
+- *Проверка изменения свойств логотипа при наведении*
 - *Проверка выпадающего меню кнопки гамбургера*
 - *Проверка наличия ссылок на кнопках в хедере главной страницы*
 
@@ -35,14 +35,14 @@
 
 
 
-##  Сборка в Jenkins
+## Сборка в Jenkins
 [Build](https://jenkins.autotests.cloud/job/C17-eaach-lesson14-HW2/)
 ![jenkins_build](/pictures/jenkins.png)
 
 __*Параметры сборки:*__
 ![jenkins_parameters](/pictures/jenkins_2.png)
 
-## :running_woman: Запуск тестов
+## :running_woman:  Запуск тестов
 ```
 gradle clean test
 ```
@@ -83,6 +83,6 @@ __Тестовые сценарии:__
 
 ### Видео примера запуска теста в Selenoid:
 
-<p align="center">
-<img title="Selenoid Video" src="/pictures/93ecee38f0bc3ae75051dcf127febdd6.gif" width="250" height="153"  alt="video"> 
+<p>
+<img title="Selenoid Video" src="/pictures/93ecee38f0bc3ae75051dcf127febdd6.gif" width="750" height="459"  alt="video"> 
 </p>
