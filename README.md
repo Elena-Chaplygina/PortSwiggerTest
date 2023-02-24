@@ -20,7 +20,8 @@
 <a href="https://aerokube.com/selenoid/"><img src="/pictures/logo/Selenoid.svg" width="50" height="50"  alt="Selenoid"/></a>
 <a href="https://github.com/allure-framework/allure2"><img src="/pictures/logo//Allure.svg" width="50" height="50"  alt="Allure"/></a>
 <a href="https://https://qameta.io/"><img src="/pictures/logo/Allure_TO.svg" width="50" height="50"  alt="Allure_TO"/></a>
-<a href="https://www.jenkins.io/"><img src="/pictures/logo/Jenkins_logo.svg" width="50" height="50"  alt="Jenkins"/></a>
+<a href="https://www.jenkins.io/"><img src="/pictures/logo/Jenkins.svg" width="50" height="50"  alt="Jenkins"/></a>
+<a href="https://https://telegram.org/"><img src="/pictures/logo/Telegram.svg" width="50" height="50"  alt="Telegram"/></a>
 </p>
 
 ## Реализованные проверки:
@@ -81,4 +82,7 @@ __Тестовые сценарии:__
 ![bot_result](/pictures/telegram.png)
 
 ### Видео примера запуска теста в Selenoid:
-(/pictures/93ecee38f0bc3ae75051dcf127febdd6.gif)
+
+<p align="center">
+<img title="Selenoid Video" src="/pictures/93ecee38f0bc3ae75051dcf127febdd6.gif" width="250" height="153"  alt="video"> 
+</p>
