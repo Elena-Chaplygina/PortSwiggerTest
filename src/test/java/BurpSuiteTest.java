@@ -45,8 +45,7 @@ public class BurpSuiteTest extends TestBase {
 
     @CsvSource({
             "[data-ga-click-label=research], href, https://portswigger.net/research, Research",
-            "[data-ga-click-label=academy], href, https://portswigger.net/web-security, Academy",
-            "[data-ga-click-label=dailyswig], href, https://portswigger.net/daily-swig, Daily swig",
+            "[data-ga-click-label=academy], href, https://portswigger.net/web-security, Academy"
     })
     @ParameterizedTest (name = "Checking that button {3} in the page header have link {2}")
     void itemShouldHavelink(String item, String attribute, String url, String name) {
