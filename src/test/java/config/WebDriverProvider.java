@@ -8,18 +8,13 @@ import java.util.Map;
 
 public class WebDriverProvider {
 
+    public static WebDriverConfig config = ConfigFactory.create(WebDriverConfig.class, System.getProperties());
 
-    private final WebDriverConfig config;
-
-
-    public WebDriverProvider() {
-        this.config = ConfigFactory.create(WebDriverConfig.class, System.getProperties());
-    }
-
-    public WebDriverProvider initConfig() {
+    public static void initConfig() {
         if (config.getLocale() == "remote" || config.getLocale() == null) {
             Configuration.remote = System.getProperty("url", "https://user1:1234@selenoid.autotests.cloud/wd/hub");
         }
+        Configuration.remote = config.getBaseUrl();
         Configuration.browser = config.getBrowser();
         Configuration.browserVersion = config.getBrowserVersion();
 
@@ -31,7 +26,9 @@ public class WebDriverProvider {
 
 
         Configuration.holdBrowserOpen = true;
-        return null;
+
+
+
     }
 
 

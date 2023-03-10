@@ -16,7 +16,7 @@ BurpSuitePage burpSuitePage=new BurpSuitePage();
 
     @BeforeAll
     static void beforeAll() {
-        WebDriverProvider provider=new WebDriverProvider().initConfig();
+        WebDriverProvider.initConfig();
 
 
     }

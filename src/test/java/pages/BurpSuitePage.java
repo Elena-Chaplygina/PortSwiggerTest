@@ -16,10 +16,6 @@ public class BurpSuitePage {
             loginForm = $("#FormContainer");
 
 
-//    @BeforeEach
-//    void beforeEach() {
-//        open("https://portswigger.net/");
-//    }
 
     public void menuOpensAfterClickingItem(String item, String img) {
 

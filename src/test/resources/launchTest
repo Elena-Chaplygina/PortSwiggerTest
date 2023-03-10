@@ -1,1 +1,1 @@
-./gradlew clean test -Dbrowser=chrome -DbrowserVersion=100 -Dlocale=locally
+./gradlew clean test -Dbrowser=chrome -DbrowserVersion=100 -Dlocale=locale

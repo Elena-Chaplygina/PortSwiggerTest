@@ -4,13 +4,13 @@ import org.aeonbits.owner.Config;
 
 
 @Config.Sources({
-//        "classpath: ${locale}.properties",
-        "classpath: remote.properties"
+//        "classpath:${locale}.properties",
+        "classpath:remote.properties"
 })
 
 public interface WebDriverConfig extends Config {
     @Key("browser")
-    @DefaultValue("chrome")
+    @DefaultValue("firefox")
     String getBrowser();
 
     @Key("browserVersion")
