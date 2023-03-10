@@ -15,6 +15,7 @@ public class WebDriverProvider {
             Configuration.remote = System.getProperty("url", "https://user1:1234@selenoid.autotests.cloud/wd/hub");
         }
         Configuration.remote = config.getBaseUrl();
+
         Configuration.browser = config.getBrowser();
         Configuration.browserVersion = config.getBrowserVersion();
 
