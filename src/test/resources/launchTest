@@ -1,0 +1,1 @@
+./gradlew clean test -Dbrowser=chrome -DbrowserVersion=100 -Dlocale=locally
