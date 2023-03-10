@@ -2,6 +2,12 @@ package config;
 
 import org.aeonbits.owner.Config;
 
+
+@Config.Sources({
+//        "classpath: ${locale}.properties",
+        "classpath: remote.properties"
+})
+
 public interface WebDriverConfig extends Config {
     @Key("browser")
     @DefaultValue("chrome")
@@ -12,7 +18,11 @@ public interface WebDriverConfig extends Config {
     String getBrowserVersion();
 
     @Key("locale")
-    @DefaultValue("locally")
+    @DefaultValue("locale")
     String getLocale();
+
+    @Key("remote.url")
+    String getBaseUrl();
+
 
 }

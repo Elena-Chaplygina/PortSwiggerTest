@@ -1,5 +1,7 @@
+import com.codeborne.selenide.logevents.SelenideLogger;
 import config.WebDriverProvider;
 import helpers.Attach;
+import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
@@ -16,10 +18,12 @@ BurpSuitePage burpSuitePage=new BurpSuitePage();
     static void beforeAll() {
         WebDriverProvider provider=new WebDriverProvider().initConfig();
 
+
     }
 
     @BeforeEach
     void beforeEach() {
+        SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
         open("https://portswigger.net/");
     }
     @AfterEach
