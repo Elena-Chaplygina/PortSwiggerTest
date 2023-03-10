@@ -11,7 +11,7 @@ public class WebDriverProvider {
     public static WebDriverConfig config = ConfigFactory.create(WebDriverConfig.class, System.getProperties());
 
     public static void initConfig() {
-        if (config.getLocale() == "remote" || config.getLocale() == null) {
+        if (config.getLocale() == "remote") {
             Configuration.remote = System.getProperty("url", "https://user1:1234@selenoid.autotests.cloud/wd/hub");
         }
         Configuration.remote = config.getBaseUrl();

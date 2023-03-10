@@ -17,7 +17,7 @@ public interface WebDriverConfig extends Config {
     @DefaultValue("100.0")
     String getBrowserVersion();
 
-    @Key("locale")
+    @Key("env")
     @DefaultValue("locale")
     String getLocale();
 
