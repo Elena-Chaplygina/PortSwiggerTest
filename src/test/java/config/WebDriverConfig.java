@@ -4,25 +4,23 @@ import org.aeonbits.owner.Config;
 
 
 @Config.Sources({
-//        "classpath:${locale}.properties",
-        "classpath:remote.properties"
+        "classpath:${env}.properties",
+//        "classpath:locale.properties"
+
 })
 
 public interface WebDriverConfig extends Config {
     @Key("browser")
-    @DefaultValue("firefox")
+    @DefaultValue("FIREFOX")
     String getBrowser();
 
     @Key("browserVersion")
-    @DefaultValue("100.0")
+    @DefaultValue("98.0")
     String getBrowserVersion();
 
-    @Key("env")
-    @DefaultValue("locale")
-    String getLocale();
 
-    @Key("remote.url")
-    String getBaseUrl();
+    @Key("remoteUrl")
+    String getRemoteUrl();
 
 
 }

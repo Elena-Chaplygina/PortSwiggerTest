@@ -18,7 +18,6 @@ public class BurpSuitePage {
 
 
     public void menuOpensAfterClickingItem(String item, String img) {
-
         $(item).click();
         $(img).shouldBe(visible);
 
